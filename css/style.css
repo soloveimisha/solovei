@@ -1,0 +1,170 @@
+/* Обнуление стилей */
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Стили для шапки сайта */
+header {
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+.logo h1 {
+font-size: 24px;
+}
+
+/* Стили для главной секции сайта */
+.hero {
+background-image: url(images/bg.jpg);
+background-size: cover;
+background-position: center;
+color: #fff;
+text-align: center;
+padding: 100px 0;
+}
+
+.hero h2 {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 18px;
+margin-bottom: 40px;
+}
+
+.button {
+display: inline-block;
+background-color: #fff;
+color: #333;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-size: 18px;
+}
+
+.button:hover {
+background-color: #333;
+color: #fff;
+}
+
+/* Стили для секции товаров */
+.products {
+margin: 80px 0;
+}
+
+.products h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.product {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 40px;
+}
+
+.product img {
+width: 100%;
+max-width: 300px;
+}
+
+.product h3 {
+font-size: 24px;
+margin: 20px 0;
+}
+
+.product p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.price {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+/* Стили для секции "О нас" */
+.about {
+margin: 80px 0;
+}
+
+.about h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.about p {
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 40px;
+}
+
+/* Стили для секции категорий товаров */
+.categories {
+margin: 80px 0;
+}
+
+.categories h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.category {
+margin-bottom: 40px;
+}
+
+.category img {
+width: 100%;
+max-width: 300px;
+}
+
+.category h3 {
+font-size: 24px;
+margin: 20px 0;
+}
+
+/* Стили для секции контактов */
+.contact {
+margin: 80px 0;
+}
+
+.contact h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.contact p {
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+/* Стили для подвала сайта */
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}

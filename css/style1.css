@@ -1,0 +1,178 @@
+/* Общие стили */
+
+body {
+
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+}
+
+a {
+color: #007bff;
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+/* Стили для header */
+
+header {
+background-color: #f8f9fa;
+border-bottom: 1px solid #dee2e6;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+
+.logo h1 {
+margin: 0;
+}
+
+nav ul {
+display: flex;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+/* Стили для hero section */
+
+.hero {
+background-color: #007bff;
+color: #fff;
+padding: 100px 20px;
+text-align: center;
+}
+
+.hero h2 {
+margin-top: 0;
+}
+
+.button {
+background-color: #fff;
+border: none;
+border-radius: 5px;
+color: #007bff;
+display: inline-block;
+font-size: 1.2rem;
+font-weight: bold;
+margin-top: 20px;
+padding: 10px 20px;
+text-transform: uppercase;
+}
+
+.button:hover {
+background-color: #007bff;
+color: #fff;
+}
+
+/* Стили для products section */
+
+.products {
+padding: 50px 20px;
+text-align: center;
+}
+
+.products h2 {
+margin-top: 0;
+}
+
+.product {
+background-color: #f8f9fa;
+border: 1px solid #dee2e6;
+border-radius: 5px;
+display: inline-block;
+margin: 20px;
+padding: 20px;
+text-align: left;
+vertical-align: top;
+width: 300px;
+}
+
+.product img {
+display: block;
+height: 200px;
+margin-bottom: 10px;
+width: 100%;
+}
+
+.product h3 {
+margin: 0;
+}
+
+.product p {
+margin: 10px 0;
+}
+
+.price {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+/* Стили для about section */
+
+.about {
+padding: 50px 20px;
+text-align: center;
+}
+
+.about h2 {
+margin-top: 0;
+}
+
+/* Стили для categories section */
+
+.categories {
+background-color: #f8f9fa;
+padding: 50px 20px;
+text-align: center;
+}
+
+.categories h2 {
+margin-top: 0;
+}
+
+.category {
+display: inline-block;
+margin: 20px;
+text-align: center;
+vertical-align: top;
+width: 300px;
+}
+
+.category img {
+display: block;
+height: 200px;
+margin-bottom: 10px;
+width: 100%;
+}
+
+.category h3 {
+margin: 0;
+}
+
+/* Стили для contact section */
+
+.contact {
+padding: 50px 20px;
+text-align: center;
+}
+
+.contact h2 {
+margin-top: 0;
+}
+
+/* Стили для footer */
+
+footer {
+background-color: #f8f9fa;
+border-top: 1px solid #dee2e6;
+}

@@ -1,0 +1,202 @@
+/* Общие стили */
+
+body {
+background: radial-gradient(at 0% 90%, #111 10px, #686868 30%, #111 50%);
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+}
+
+/* header styles */
+header {
+  background-color: #111;
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #66FCF1;
+}
+
+.hero {
+  background-color: #111;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.hero .button {
+  display: inline-block;
+  background-color: #66FCF1;
+  color: #111;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero .button:hover {
+  background-color: #45A29E;
+  color: #fff;
+}
+
+
+
+/* Стили для products section */
+
+.products {
+padding: 50px 20px;
+text-align: center;
+}
+
+.products h2 {
+color: #fff;
+margin-top: 0;
+}
+
+.product {
+background-color: #f8f9fa;
+border: 1px solid #45A29E;
+border-radius: 5px;
+display: inline-block;
+margin: 20px;
+padding: 20px;
+text-align: left;
+vertical-align: top;
+width: 300px;
+}
+
+.product img {
+display: block;
+height: 200px;
+/*margin-bottom: 10px;*/
+/*width: 100%;*/
+margin: 0 auto;
+}
+
+.product h3 {
+margin: 0;
+}
+
+.product p {
+margin: 10px 0;
+}
+
+
+
+.button {
+  display: inline-block;
+  background-color: #66FCF1;
+  color: #111;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45A29E;
+  color: #fff;
+}
+
+.price {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+/* Стили для about section */
+
+.about {
+padding: 50px 20px;
+text-align: center;
+color: #fff;
+}
+
+.about h2 {
+margin-top: 0;
+}
+
+/* Стили для categories section */
+
+.categories {
+background-color: #f8f9fa;
+padding: 50px 20px;
+text-align: center;
+}
+
+.categories h2 {
+margin-top: 0;
+}
+
+.category {
+display: inline-block;
+margin: 20px;
+text-align: center;
+vertical-align: top;
+width: 300px;
+}
+
+.category img {
+display: block;
+height: 200px;
+/*margin-bottom: 10px;*/
+/*width: 100%;*/
+margin: 0 auto;
+}
+
+.category h3 {
+margin: 0;
+}
+
+/* Стили для contact section */
+
+.contact {
+color: #fff;
+padding: 50px 20px;
+text-align: center;
+}
+
+.contact h2 {
+margin-top: 0;
+}
+
+/* Стили для footer */
+
+footer {
+background-color: #f8f9fa;
+border-top: 1px solid #dee2e6;
+}
